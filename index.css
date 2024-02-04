@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+    column-gap: 20px;
+    gap: 10px;
+    flex-flow: wrap;
+    background-color: brown;
+    height: fit-content;
+    padding-top: 20px;
+}
+.logo{
+    height: fit-content;
+    width: 20px;
+    color: aqua;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button{
+    width: 50px;
+    background-color: aqua;
+}
+input{
+    width: 40px;
+    
+}
+.name{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    row-gap: 20px;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, aqua, orange);
+    flex-flow: wrap;
+}
+.card1, .card2, .card3, .card4, .card5{
+    height: 500px;
+    text-wrap: wrap;
+    width: 200px;
+    text-overflow: ellipsis;
+}
+
+img{
+    padding-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: lightsalmon;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 150px;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.input1, .input2 {
+    width: 150px;
+    background-color: blue;
+    color: aqua;
+    font-size: 15px;
+}
+.same1{
+    background-color: yellow;
+    font-size: 15px;
+}
+.footer1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        background-color: aqua;
+    }
+    .input, button{
+        background-color: brown;
+        
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* text-wrap: wrap;
+        flex-flow: wrap; */
+        grid-template-columns: none;
+        margin: 0;
+        /* padding: 0; */
+        padding-bottom: 0;
+    }
+    .card1, .card2, .card3, .card4, .card5{
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       height: 400px;
+    } 
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        flex-flow: wrap;
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to left, black, white);
+}
+
+.input1, .input2 {
+    background-color: lawngreen;
+    color: black;
+}
+.same1{
+    background-color: black;
+    font-size: 15px;
+    color: lawngreen;
+}
+.li{
+    padding: 0;
+    margin: 0;
+}
+.footer1{
+    padding-top: 10px;
+}
+.footer2{
+    padding-bottom: 20px;
+}
+}
